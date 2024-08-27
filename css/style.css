@@ -1,0 +1,42 @@
+/* Custom styles for the website */
+body {
+  padding-top: 56px;
+   margin: 0;
+   
+    /* Offset for fixed navbar */
+}
+/* Ensure the body margin is resetheight="350px" width="200px"  */
+
+/* Style for the navigation bar */
+
+.navbar-brand a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  background: url('https://via.placeholder.com/1920x600') no-repeat center center ;
+  background-size: cover;
+  background: ;
+}
+
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2.5rem;
+  }
+  
+  .hero p {
+      font-size: 1.25rem;
+  }
+}
+
